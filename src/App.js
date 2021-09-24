@@ -33,7 +33,7 @@ function Counter(){
   }
   return(
     <div>
-        <h1>React Digital Tasbi</h1>
+        <h1 style = {{backgroundColor:'yellow'}}>React Digital Tasbi</h1>
         <h1>Count : {count} </h1>
         <button onClick={handelIncrease}>Increase</button>
         <button onClick={handelDecrease}>Decrease</button>
